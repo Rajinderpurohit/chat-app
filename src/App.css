@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body-bar {
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:10px;
+}
+.bodycontent {
+  min-width:50%;
+}
+.chathis {
+  max-height: 350px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+input {
+  border: 1px solid #342e2e52;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+button {
+  border: 2px solid #0d649e;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #0d649e;
+    width: 100%;
+}
+button:hover {
+    color: #fff;
+    background-color:  #0d649e;
+    box-shadow: 0px 0px 10px #aaa;
+}
+.send-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 100%;
+  max-width: 40px;
+  position: absolute;
+  right: 0px;
+}
+.msg-bar-div{
+  position: relative;
+}
+/* Style for SVG icon */
+.send-icon {
+  vertical-align: middle;
+}
